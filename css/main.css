@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.list{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.list-item{
+    margin: 30px;
+    border: 1px solid #000;
+    width: 420px;
+    height: 370px;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+.inner-block{
+    /* width: 121px; */
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.inner-block_item{
+    width: 350px;
+}
